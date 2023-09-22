@@ -1,0 +1,56 @@
+git config --global user.name "arizacristal"
+git config --global user.email cristalarizamartinez@gmail.com
+
+Para saber el nombre de usuario, escriba:
+
+ git config user.name 
+Para saber el correo electrónico, escriba:
+
+ git config user.email 
+
+
+//1-abrir git bas
+
+//2- pwd
+
+//3-ubicar parpeta del proyecto con cd
+//cd Desktop
+//cd ProyectProgramacion
+//cd Proyecto
+//cd UPC
+git init
+
+5- inicializar git
+git init
+
+6. git add .
+
+7- la monto
+git commit -m 'nombre del commit'
+
+
+8------------------
+
+OJO esto es si es primera vez que lo subiras
+
+git remote add origin https://github.com/Cristalariza/PruebaRepo.git
+
+
+OJO esto es para cuando ya esta arriba y vas hacer versiones
+
+git push -u origin master
+----------------------------------------------------------------------
+
+
+RESUMEN (ojo ponle el nombre del comit que vas a montar)
+
+pwd
+cd Desktop
+cd web
+cd Proyecto
+cd Proyecto
+ls -l
+git init
+git add .
+git commit -m 'FormulariosReactivos commit'
+git push -u origin master
